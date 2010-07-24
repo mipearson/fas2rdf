@@ -5,4 +5,5 @@ group :test do
   gem 'cucumber-rails'
 	gem 'rspec'
 	gem 'rspec-rails'
+	gem 'capybara'
 end
