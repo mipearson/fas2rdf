@@ -2,14 +2,26 @@
 <html>
   <head>
 	<title>FAS to RDF Conversion Tool</title>
+	<%= stylesheet_link_tag 'scaffold' %>
 	</head>
 <body>
 	<h1>FAS to RDF Conversion Tool</h1>
 	<% form_for :convert, :url => { :action => "convert"}, :html =>	{:multipart => true}  do |f| %>
 	  <%= f.error_messages %>
-    <%= f.label 'fas_file', 'FAS File' %> <%= f.file_field :fas_file %><br />
+	  <p>
+    <%= f.label 'fas_file', 'Pick a valid FAS file to convert ...' %><br />
+    <%= f.file_field :fas_file %>
+    </p>
+		<p>
+			And then click ...<br />
     <input type='submit' value='Convert To RDF' onclick="javascript:document.forms[0].action = '/convert/' +  document.forms[0].elements[1].value.replace('.fas', '.rdf')">
+    </p>
+
   <% end %>
+	<div class='credits'>
+		Copyright 2010 <a href="http://twitter.com/mipearson">Michael Pearson</a> &amp;
+		<a href="http://twitter.com/kate_biscuit">Kate Naughton</a>. Source code available at <a href="http://github.com/mipearson/fas2rdf">a github near you</a>.
+	</div>
 </body>
 
 	

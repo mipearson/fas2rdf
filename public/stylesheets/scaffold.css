@@ -1,0 +1,74 @@
+/* @override http://localhost:3000/stylesheets/scaffold.css?1280145437 */
+
+/* @override http://localhost:3000/stylesheets/scaffold.css?1280144198 */
+
+body { color: #F1F2DB;
+	background-color: #394635;
+}
+
+form {
+	background-color: #6D7D59;
+	padding: 1px 1em;
+}
+
+h1 {
+	font-size: 4em;
+	color: #ECD77A;
+}
+
+body, p, ol, ul, td {
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+.credits {
+	padding: 1em 0.5em 0.5em;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #F1F2DB; }
+a:visited { color: #CD9644; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
