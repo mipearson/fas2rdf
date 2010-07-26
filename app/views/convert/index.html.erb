@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>FAS to RDF Conversion Tool</title>
+	</head>
+<body>
+	<h1>FAS to RDF Conversion Tool</h1>
+	<% form_for :convert, :url => { :action => "convert"}, :html =>	{:multipart => true}  do |f| %>
+	  <%= f.error_messages %>
+    <%= f.label 'fas_file', 'FAS File' %> <%= f.file_field :fas_file %><br />
+    <input type='submit' value='Convert To RDF' onclick="javascript:document.forms[0].action = '/convert/' +  document.forms[0].elements[1].value.replace('.fas', '.rdf')">
+  <% end %>
+</body>
+
+	
