@@ -54,7 +54,7 @@ specs:
 - mime-types: 
     version: "1.16"
 - nokogiri: 
-    version: 1.4.2
+    version: 1.4.3.1
 - rack-test: 
     version: 0.5.4
 - ffi: 
@@ -95,7 +95,7 @@ specs:
     version: 0.10.3
 - spork: 
     version: 0.8.4
-hash: bc8d9546cb023e8f498c37b8502363e967364b22
+hash: 90873b66c226caf628d1a7afbef7b50fd347a238
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
