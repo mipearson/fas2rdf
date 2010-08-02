@@ -26,12 +26,24 @@ body, p, ol, ul, td {
 	padding: 1em 0.5em 0.5em;
 }
 
+div.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 pre {
   background-color: #eee;
   padding: 10px;
   font-size: 11px;
 }
 
+div.notice {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px dotted #fff;
+    font-size: 16px;
+    color: #fff;
+}
 a { color: #F1F2DB; }
 a:visited { color: #CD9644; }
 a:hover { color: #fff; background-color:#000; }
